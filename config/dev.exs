@@ -8,3 +8,13 @@ config :logger, :ecto,
   path: Path.absname("logs/dev/ecto.log")
 
 config :logger, :error, path: Path.absname("logs/dev/error.log")
+
+config :block_scout_web, BlockScoutWeb.Endpoint,
+  http: [port: 4000],
+  https: [
+    port: 4001,
+    cipher_suite: :strong,
+    certfile: "priv/cert/fullchain.pem",
+    keyfile: "priv/cert/privkey.pem"
+  ]
+

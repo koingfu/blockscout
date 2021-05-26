@@ -1,0 +1,19 @@
+export PATH="$PATH:/home/ubuntu/elixir/bin"
+export NETWORK=SmartBCH
+export SUBNETWORK=Testnet
+export ETHEREUM_JSONRPC_VARIANT=geth
+export ETHEREUM_JSONRPC_HTTP_URL=http://52.22.211.124:8545
+export ETHEREUM_JSONRPC_TRACE_URL=http://52.22.211.124:8545
+export ETHEREUM_JSONRPC_WS_URL=ws://52.22.211.124:8546
+export SECRET_KEY_BASE=Nfj50PJyYCg48TtPbzY5j6iSQideqsaq1c8SaytqWh/0tEnKWZM/6hKrEcDpcfCN
+export PORT=4000
+export COIN=BCH
+export DATABASE_URL=postgresql://ubuntu:xvJSLvx9HGtncT2T@localhost:5432/blockscout
+export LOGO=/images/blockscout_logo.svg
+export LOGO_FOOTER=/images/blockscout_logo.svg
+export DISABLE_WRITE_API=true
+export DISABLE_READ_API=true
+export SUPPORTED_CHAINS=[]
+export LINK_TO_OTHER_EXPLORERS=false
+/home/ubuntu/elixir/bin/mix phx.server
+
