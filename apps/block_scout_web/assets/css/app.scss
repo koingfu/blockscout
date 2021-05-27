@@ -136,3 +136,41 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
   darkprimary: $dark-primary;
   darksecondary: $dark-secondary;
 }
+
+
+
+html {
+	background: #fff !important;
+}
+.bg-dark-900 {
+	background: #17283C !important;
+}
+
+.bg-gradient-to-r {
+	background: none !important;
+}
+.border-gradient-r-blue-pink-dark-900 {
+	background: none !important;
+	border: 1px solid #fff !important;
+}
+.md\:border-gradient {
+	background: none !important;
+	border: 1px solid #fff !important;
+}
+.kAfHSm, .cnQvJK {
+	color: #fff !important;
+	background: linear-gradient(103.87deg, #4a9dfe -8.74%, #73b2fdb3 141.05%) !important;
+}
+.bg-purple, .bg-gradient-to-r {
+	background: linear-gradient(103.87deg, #E6509E -8.74%, #F65C4A 141.05%) !important;
+}
+.dashboard-banner-network-plain-container,
+.dashboard-banner-network-plain-container:after {
+	background: #17283C !important;
+}
+.dashboard-banner-network-stats-item:before {
+	background: #B9D4FF !important;
+}
+.layout-container main, .navbar.navbar-primary .form-control {
+	background: #ecf3fb !important;
+}
